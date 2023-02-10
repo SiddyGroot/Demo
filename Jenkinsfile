@@ -2,11 +2,7 @@ pipeline {
   agent any
   tools {nodejs "node"}
   stages {
-    stage('Build') {
-      steps {
-        git 'https://github.com/SiddyGroot/Demo.git
-        bat 'npm install'
-      }}}
+    
      environment {
             CI = 'true'
         }
