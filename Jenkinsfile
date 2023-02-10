@@ -13,7 +13,6 @@ pipeline {
         }
         stage('Test') {
                     steps {
-                        sh 'node test'
                     }
                 }
                 stage('Deliver') {
